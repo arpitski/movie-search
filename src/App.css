@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .App-logo {
@@ -35,4 +35,91 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.container{
+  width: 70%;
+  margin-left: 15%;
+  /* background-color: gray */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.padd{
+  padding: 15px;
+}
+
+.search-field{
+  width: 100%;
+  height: 40px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 1px solid white;
+  outline: none;
+  text-indent: 20px;
+  background-color: #2e2d2d;
+  color: white;
+}
+
+body{
+  background-color: #2e2d2d;
+}
+
+.movie{
+  padding: 5px;
+  margin-top: 30px;
+  /* background-color: gray; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.poster{
+  height: 600px;
+  width: 38%;
+  /* background-color: teal; */
+  overflow: hidden;
+
+}
+
+.img-poster{
+  width: 100%;
+  /* height: 100%; */
+}
+
+.details{
+  width: 70%;
+  /* background-color: tomato; */
+}
+
+.padd p{
+  font-size: 18px;
+}
+
+h1, h2, h3, h4{
+  margin: 0px;
+}
+
+.ratings{
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.ratings>div{
+  margin-right: 20px;
+}
+
+.input-group{
+  display: flex;
+  margin-top: 10px;
+}
+
+.btn{
+  border-radius: 10px;
+  cursor: pointer;
+  width: 15%; 
+  outline: none;
+  border: none;
+  background-color: #7f989e;
+  margin-left: 5px;
 }
