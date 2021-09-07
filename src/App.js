@@ -27,7 +27,7 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div>
       <div className = 'container'>
         <div className = 'padd'>
           <h1>Movie Search</h1>
